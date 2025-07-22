@@ -1,0 +1,57 @@
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#chat {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.message {
+  margin: 5px 0;
+  padding: 8px 12px;
+  border-radius: 12px;
+  max-width: 80%;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.user {
+  background-color: #4caf50;
+  align-self: flex-end;
+}
+
+.valera {
+  background-color: #f44336;
+  align-self: flex-start;
+}
+
+#input-area {
+  display: flex;
+  padding: 10px;
+  background-color: #333;
+}
+
+#user-input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  margin-left: 5px;
+  cursor: pointer;
+}
